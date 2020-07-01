@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speare - Gerador de Promoções</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="page-home">
+        <header>
+            <h1>Speare - Gerador de Promoções</h1>
+        </header>
+        
+       
+
+        <form action="" id="myForm">
+            <h2>Escolha o Header</h2>
+            
+            <div class="header-select">
+                
+                <button type="button" id="one" onclick="replyClick(this.id)">Muito bom</button>
+                <button type="button" id="two" onclick="replyClick(this.id)">Excelente</button>
+                <button type="button" id="tree" onclick="replyClick(this.id)">Otimo</button>
+                <button type="button" id="four" onclick="replyClick(this.id)">Corre</button>
+                <button type="button" id="five" onclick="replyClick(this.id)">Imperdivel</button>
+                <button type="button" id="six" onclick="replyClick(this.id)">Incrivel</button>
+                <button type="button" id="seven" onclick="replyClick(this.id)">Lindinho</button>
+                <button type="button" id="eight" onclick="replyClick(this.id)">Vai acabar rapido</button>
+                <button type="button" id="nine" onclick="replyClick(this.id)">Muito top</button>
+                <button type="button" id="ten" onclick="replyClick(this.id)">Menor preço do mês </button>
+    
+            </div>
+
+            <div class="field">
+                <label for="name">Nome do produto</label>
+                <input type="text" name='name' id="productName" required>
+            </div>
+
+            <div class="field">
+                <label for="name">Valor</label>
+                <input type="text" name='price' id="Text" required>
+            </div>
+
+            <div class="field">
+                <label for="name">Link para compra</label>
+                <input type="text" name='link' id="linkText" required>
+            </div>
+        
+        <h2>Direção da Postagem / Tipo de Frete</h2>
+
+        <div class="field-group">
+            
+            <div class="selectWhere">
+                <button type="button" id="pon">Promos Online</button>
+                <button type="button" id="mdo">Mapa das Ofertas</button>
+                <button type="button" id="gen">Genérico</button>
+            </div>
+
+            <div class="selectShip">
+                <button type="button" id="prem">Prime</button>
+                <button type="button" id="zone">Por região</button>
+                <button type="button" id="none">Nenhum</button>
+            </div>
+        </div>
+        
+            <button type="submit" onclick="getProduct()">Gerar</button>
+        </form>
+    </div>
+
+    <label id="result">TESTE</label>
+</body>
+
+<script src="index.js"></script>
+</html>

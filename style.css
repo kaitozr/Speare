@@ -1,0 +1,110 @@
+
+
+#page-home {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+.header-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    
+    margin: 0 auto;
+    flex: 1;
+
+}
+
+.selectWhere {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    
+    margin: 0 auto;
+    flex: 1;
+}
+
+.selectShip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    
+    margin: 0 auto;
+    flex: 1;
+}
+
+.field-group {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.header-select li.selected {
+    background: #e1faec;
+    border: 2px solid #34cb79;
+}
+
+form {
+    margin: 0 auto;
+    background-color: white;
+
+    margin-top: -50px;
+    padding: 64px; /*Preenchimento*/
+
+    border-radius: 8px;  
+    
+    max-width: 730px;
+}
+
+form fieldset {
+    margin-top: 64px;
+
+    border: 0;
+}
+
+form .field {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+form .field-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+/* form .field-group button {
+    background-color: #f5f5f5;
+    list-style: none;
+
+    border: 5px solid #f5f5f5;
+    border-radius: 8px;
+    height: 8px;
+    width: 300px;
+
+    padding: 5px 5px 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    pointer-events: none;
+} */
+
+
+form button:hover{
+    background-color: #d8d8d8;
+    transition: 400ms;
+}
